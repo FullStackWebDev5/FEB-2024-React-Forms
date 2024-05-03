@@ -1,0 +1,40 @@
+.form-wrapper {
+  text-align: left;
+  width: max-content;
+  margin: 10px auto;
+}
+
+.form-element {
+  padding: 5px 10px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-element input {
+  margin-left: 10px;
+}
+
+#form-success-alert {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-success-alert span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
